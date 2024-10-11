@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+:root{
+    --dark: rgba(41, 40, 48, 1);
+    --orange:rgba(255, 114, 53, 1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind Siliguri", sans-serif
+}
+/*---------------nav qismi boshlandi----------*/
+.container{
+width: 1140px;
+margin: 0 auto;
+margin-top: 60px ;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--orange);
+    transition: 0.5s;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ 
+}
+.header-img{
+    display: flex;
+    align-items: center;
+    font-family: Hind Siliguri;
+font-size: 23px;
+font-weight: 500;
+color: var(--dark);
+
+}
+.header-head-text{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 40px;
+    align-items: center;
+    
+}
+.nav-request-btn{
+    color: var(--orange);
+    border-radius: 8px;
+    border: 1px solid --orange;
+    background-color: transparent;
+    padding: 15px 17px 16px 18px;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-head-text-words{
+    font-family: Hind Siliguri;
+font-size: 18px;
+font-weight: 400;
+line-height: 17.1px;
+text-align: left;
+}
+.nav-request-btn:hover{
+ cursor: pointer;
+ background-color: var(--orange);
+ color: var(--dark);
+ transition: 0.5s ease-in-out;
+}
+.header-bottom{
+    margin-top: 106px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.header-bottom-text>h1{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+}
+.header-bottom-text>p{
+font-size: 24px;
+font-weight: 400;
+line-height: 38.81px;
+text-align: left;
+color: rgba(189, 189, 189, 1);
+margin: 20px 0px 40px 0px;
+}
+.try-free-box>select{
+    padding: 18px 24px;
+    border-radius: 8px;
+    background-color: var(--orange);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+}
+.try-free-box>span{
+    color: rgba(189, 189, 189, 1);
+font-size: 24px;
+font-weight: 400;
+line-height: 38.81px;
+text-align: left;
+}
+.try-free-box{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.overview{
+    background-color: var(--orange);
+    margin-top: 87px;
+}
+.img-overview{
+    margin-top: 87px;
+    width: 100%;
+}
+.logos-overview img{
+    width: 159px;
+    height: 32px;
+}
+.header-bottom-text{
+    width: 540px;
+}
+.alwalys-online{
+    display: flex;
+    align-items: center;
+
+}
+.alwalys-online-taxt>p{
+    width: 172px;
+height: 36px;
+top: 142px;
+left: 165px;
+gap: 0px;
+opacity: 0px;
+font-size: 22px;
+font-weight: 400;
+line-height: 35.57px;
+color: rgba(189, 189, 189, 1);
+}
+.alwalys-online-taxt>h1{
+    width: 540px;
+height: 288px;
+top: 202px;
+left: 165px;
+gap: 0px;
+opacity: 0px;
+font-size: 96px;
+font-weight: 700;
+line-height: 96px;
+}
+.alwalys-online-taxt{
+    width: 540px;
+height: 537px;
+top: 142px;
+left: 165px;
+gap: 0px;
+opacity: 0px;
+}
+.span-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    text-align: left;
+}  
+  .third-section-text{
+    
+  }
+@media screen and (max-width: 376p){
+    .container{
+        width: 375px;
+}
+.nav{
+    flex-wrap: wrap;
+}
+.nav-list{
+    display: none;
+}
+.request-box{
+    color: var(--orange);
+    border-radius: 8px;
+    border: 1px solid #FF7235;
+    background-color: transparent;
+    padding:  5px 7px 6px 8px;
+    font-size: 18px;
+    font-weight: 400;
+}
+}
