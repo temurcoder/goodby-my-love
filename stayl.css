@@ -169,14 +169,14 @@ opacity: 0px;
     line-height: 38.81px;
     text-align: left;
 }  
-  .third-section-text{
+  
     
-  }
-@media screen and (max-width: 376p){
+  
+@media only screen and (max-width: 600px) {
     .container{
         width: 375px;
 }
-.nav{
+nav{
     flex-wrap: wrap;
 }
 .nav-list{
